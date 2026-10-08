@@ -1,0 +1,7 @@
+split n=6 arcs=14 hk=1 ham=0 p*=2 hk_ms=0.044327 beta_mst=1.5 beta_rand=1.33333 aks=1 alg=2 opt=2
+split n=7 arcs=15 hk=1 ham=0 p*=2 hk_ms=0.071338 beta_mst=1.5 beta_rand=1.33333 aks=1 alg=2 opt=2
+split n=8 arcs=16 hk=1 ham=0 p*=2 hk_ms=0.133041 beta_mst=1.5 beta_rand=1.33333 aks=1 alg=2 opt=2
+split n=9 arcs=17 hk=1 ham=0 p*=2 hk_ms=0.247595 beta_mst=1.5 beta_rand=1.33333 aks=1 alg=2 opt=2
+split n=10 arcs=18 hk=1 ham=0 p*=2 hk_ms=0.517062 beta_mst=1.5 beta_rand=1.33333 aks=1 alg=2 opt=2
+split n=11 arcs=19 hk=1 ham=0 p*=2 hk_ms=1.10194 beta_mst=1.5 beta_rand=1.33333 aks=1 alg=2 opt=2
+split n=12 arcs=20 hk=1 ham=0 p*=2 hk_ms=2.50388 beta_mst=1.5 beta_rand=1.33333 aks=1 alg=2 opt=2
