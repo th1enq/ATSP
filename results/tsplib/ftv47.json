@@ -1,0 +1,558 @@
+{
+  "name": "ftv47",
+  "n": 48,
+  "objective": "maximum original directed edge cost",
+  "matrix_transformation": "none; diagonal excluded",
+  "input_sha256": "3fe46abcca1267bdb3f1d84089212e714da452e5033a610a9df70c8ec8634d42",
+  "matrix_sha256": "07bcc1314047ce2502893d00e217380f1547fc4a06fdc76d56d05694a0a6d172",
+  "published_bottleneck_optimum": 104,
+  "published_optimum_source": "https://cedric.cnam.fr/~bentzc/INITREC/Files/CB1.pdf",
+  "exact_references_run": false,
+  "triangle_violations": 0,
+  "metric": true,
+  "hk": {
+    "feasible": true,
+    "threshold": 104,
+    "denominator": 144,
+    "arcs": [
+      [
+        0,
+        28,
+        32
+      ],
+      [
+        0,
+        38,
+        96
+      ],
+      [
+        0,
+        47,
+        16
+      ],
+      [
+        1,
+        0,
+        48
+      ],
+      [
+        1,
+        25,
+        96
+      ],
+      [
+        2,
+        22,
+        96
+      ],
+      [
+        2,
+        42,
+        48
+      ],
+      [
+        3,
+        6,
+        15
+      ],
+      [
+        3,
+        11,
+        57
+      ],
+      [
+        3,
+        30,
+        72
+      ],
+      [
+        4,
+        24,
+        42
+      ],
+      [
+        4,
+        29,
+        72
+      ],
+      [
+        4,
+        32,
+        30
+      ],
+      [
+        5,
+        8,
+        72
+      ],
+      [
+        5,
+        9,
+        72
+      ],
+      [
+        6,
+        10,
+        9
+      ],
+      [
+        6,
+        11,
+        87
+      ],
+      [
+        6,
+        25,
+        48
+      ],
+      [
+        7,
+        31,
+        144
+      ],
+      [
+        8,
+        7,
+        42
+      ],
+      [
+        8,
+        30,
+        72
+      ],
+      [
+        8,
+        37,
+        30
+      ],
+      [
+        9,
+        3,
+        42
+      ],
+      [
+        9,
+        24,
+        102
+      ],
+      [
+        10,
+        32,
+        36
+      ],
+      [
+        10,
+        33,
+        42
+      ],
+      [
+        10,
+        37,
+        66
+      ],
+      [
+        11,
+        3,
+        87
+      ],
+      [
+        11,
+        9,
+        30
+      ],
+      [
+        11,
+        10,
+        27
+      ],
+      [
+        12,
+        7,
+        66
+      ],
+      [
+        12,
+        32,
+        78
+      ],
+      [
+        13,
+        46,
+        144
+      ],
+      [
+        14,
+        34,
+        144
+      ],
+      [
+        15,
+        16,
+        144
+      ],
+      [
+        16,
+        17,
+        144
+      ],
+      [
+        17,
+        12,
+        144
+      ],
+      [
+        18,
+        35,
+        144
+      ],
+      [
+        19,
+        44,
+        144
+      ],
+      [
+        20,
+        21,
+        144
+      ],
+      [
+        21,
+        1,
+        96
+      ],
+      [
+        21,
+        22,
+        16
+      ],
+      [
+        21,
+        38,
+        32
+      ],
+      [
+        22,
+        26,
+        112
+      ],
+      [
+        22,
+        28,
+        16
+      ],
+      [
+        22,
+        38,
+        16
+      ],
+      [
+        23,
+        36,
+        144
+      ],
+      [
+        24,
+        9,
+        42
+      ],
+      [
+        24,
+        33,
+        102
+      ],
+      [
+        25,
+        1,
+        48
+      ],
+      [
+        25,
+        18,
+        96
+      ],
+      [
+        26,
+        41,
+        144
+      ],
+      [
+        27,
+        4,
+        144
+      ],
+      [
+        28,
+        2,
+        144
+      ],
+      [
+        29,
+        5,
+        144
+      ],
+      [
+        30,
+        8,
+        72
+      ],
+      [
+        30,
+        29,
+        72
+      ],
+      [
+        31,
+        3,
+        15
+      ],
+      [
+        31,
+        6,
+        129
+      ],
+      [
+        32,
+        7,
+        36
+      ],
+      [
+        32,
+        10,
+        108
+      ],
+      [
+        33,
+        27,
+        144
+      ],
+      [
+        34,
+        23,
+        144
+      ],
+      [
+        35,
+        13,
+        144
+      ],
+      [
+        36,
+        15,
+        144
+      ],
+      [
+        37,
+        18,
+        48
+      ],
+      [
+        37,
+        19,
+        96
+      ],
+      [
+        38,
+        0,
+        48
+      ],
+      [
+        38,
+        39,
+        48
+      ],
+      [
+        38,
+        42,
+        48
+      ],
+      [
+        39,
+        19,
+        48
+      ],
+      [
+        39,
+        37,
+        48
+      ],
+      [
+        39,
+        47,
+        48
+      ],
+      [
+        40,
+        28,
+        96
+      ],
+      [
+        40,
+        42,
+        48
+      ],
+      [
+        41,
+        22,
+        32
+      ],
+      [
+        41,
+        43,
+        112
+      ],
+      [
+        42,
+        0,
+        48
+      ],
+      [
+        42,
+        40,
+        96
+      ],
+      [
+        43,
+        26,
+        32
+      ],
+      [
+        43,
+        40,
+        32
+      ],
+      [
+        43,
+        47,
+        80
+      ],
+      [
+        44,
+        20,
+        48
+      ],
+      [
+        44,
+        39,
+        96
+      ],
+      [
+        45,
+        14,
+        144
+      ],
+      [
+        46,
+        45,
+        144
+      ],
+      [
+        47,
+        20,
+        96
+      ],
+      [
+        47,
+        40,
+        16
+      ],
+      [
+        47,
+        43,
+        32
+      ]
+    ],
+    "iterations": 76,
+    "cut_count": 623,
+    "verification": "exact degrees and integral root-v min-cuts",
+    "predecessor": {
+      "feasible": false,
+      "threshold": 103,
+      "iterations": 1,
+      "cut_count": 0,
+      "proof": {
+        "multipliers": [
+          {
+            "kind": "out",
+            "vertex": 7,
+            "sign": -1,
+            "weight": "1"
+          }
+        ],
+        "weighted_rhs": "-1",
+        "verification": "exact rational Farkas certificate"
+      }
+    },
+    "queries": [
+      {
+        "threshold": 155,
+        "feasible": true,
+        "iterations": 45,
+        "cuts": 369,
+        "seconds": 4.381263987000239
+      },
+      {
+        "threshold": 84,
+        "feasible": false,
+        "iterations": 1,
+        "cuts": 0,
+        "seconds": 0.011927254000511311
+      },
+      {
+        "threshold": 120,
+        "feasible": true,
+        "iterations": 84,
+        "cuts": 754,
+        "seconds": 11.224893654999505
+      },
+      {
+        "threshold": 102,
+        "feasible": false,
+        "iterations": 1,
+        "cuts": 0,
+        "seconds": 0.013558594000642188
+      },
+      {
+        "threshold": 111,
+        "feasible": true,
+        "iterations": 73,
+        "cuts": 590,
+        "seconds": 7.338540319999993
+      },
+      {
+        "threshold": 107,
+        "feasible": true,
+        "iterations": 113,
+        "cuts": 813,
+        "seconds": 14.915952912999273
+      },
+      {
+        "threshold": 105,
+        "feasible": true,
+        "iterations": 122,
+        "cuts": 849,
+        "seconds": 15.55928218400004
+      },
+      {
+        "threshold": 104,
+        "feasible": true,
+        "iterations": 76,
+        "cuts": 623,
+        "seconds": 6.6001034599994455
+      },
+      {
+        "threshold": 103,
+        "feasible": false,
+        "iterations": 1,
+        "cuts": 0,
+        "seconds": 0.013969053999971948
+      }
+    ],
+    "lower_bound_certified": true,
+    "subset_enumeration": false
+  },
+  "hk_seconds": 60.05976376699982,
+  "status": "timeout",
+  "stage": "tree_construction",
+  "error": "TimeoutError: per-instance wall clock limit exceeded",
+  "seconds": 180.01822447500035
+}

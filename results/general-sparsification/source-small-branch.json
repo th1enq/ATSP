@@ -1,0 +1,68 @@
+{
+  "schema": "general-sparsification-v1",
+  "graph": {
+    "n": 2,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "r": 8
+  },
+  "origin": "source-initial-state",
+  "start": {
+    "x": [
+      [
+        "8"
+      ]
+    ],
+    "s": "1/2",
+    "q": "8",
+    "cone_lambda": {}
+  },
+  "responses": [],
+  "status": "below-source-cutoff",
+  "phase": "initialization",
+  "tree": [
+    0
+  ],
+  "terminal": {
+    "x": [
+      [
+        "8"
+      ]
+    ],
+    "s": "1/2",
+    "q": "8",
+    "cone_lambda": {}
+  }
+}

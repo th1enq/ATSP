@@ -1,0 +1,1063 @@
+{
+  "schema": "experimental-thin-tree-v1",
+  "backend": "checked_laplacian_sparsification",
+  "scope": "small-instance certificate; no universal constant guarantee",
+  "n": 6,
+  "denominator": 5,
+  "arcs": [
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      3,
+      1
+    ],
+    [
+      0,
+      4,
+      1
+    ],
+    [
+      0,
+      5,
+      1
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      2,
+      1
+    ],
+    [
+      1,
+      3,
+      1
+    ],
+    [
+      1,
+      4,
+      1
+    ],
+    [
+      1,
+      5,
+      1
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      2,
+      1,
+      1
+    ],
+    [
+      2,
+      3,
+      1
+    ],
+    [
+      2,
+      4,
+      1
+    ],
+    [
+      2,
+      5,
+      1
+    ],
+    [
+      3,
+      0,
+      1
+    ],
+    [
+      3,
+      1,
+      1
+    ],
+    [
+      3,
+      2,
+      1
+    ],
+    [
+      3,
+      4,
+      1
+    ],
+    [
+      3,
+      5,
+      1
+    ],
+    [
+      4,
+      0,
+      1
+    ],
+    [
+      4,
+      1,
+      1
+    ],
+    [
+      4,
+      2,
+      1
+    ],
+    [
+      4,
+      3,
+      1
+    ],
+    [
+      4,
+      5,
+      1
+    ],
+    [
+      5,
+      0,
+      1
+    ],
+    [
+      5,
+      1,
+      1
+    ],
+    [
+      5,
+      2,
+      1
+    ],
+    [
+      5,
+      3,
+      1
+    ],
+    [
+      5,
+      4,
+      1
+    ]
+  ],
+  "compression": {
+    "n": 6,
+    "original_connectivity_lower_bound": "10",
+    "original_min_cut": "10",
+    "compressed_connectivity_lower_bound": 36,
+    "compressed_min_cut": 70,
+    "compressed_min_cut_side": [
+      0
+    ],
+    "explicit_copy_count": 210,
+    "explicit_copy_bound_strict": 1296,
+    "pairs": [
+      {
+        "u": 0,
+        "v": 1,
+        "original_multiplicity": "2",
+        "compressed_multiplicity": 14
+      },
+      {
+        "u": 0,
+        "v": 2,
+        "original_multiplicity": "2",
+        "compressed_multiplicity": 14
+      },
+      {
+        "u": 0,
+        "v": 3,
+        "original_multiplicity": "2",
+        "compressed_multiplicity": 14
+      },
+      {
+        "u": 0,
+        "v": 4,
+        "original_multiplicity": "2",
+        "compressed_multiplicity": 14
+      },
+      {
+        "u": 0,
+        "v": 5,
+        "original_multiplicity": "2",
+        "compressed_multiplicity": 14
+      },
+      {
+        "u": 1,
+        "v": 2,
+        "original_multiplicity": "2",
+        "compressed_multiplicity": 14
+      },
+      {
+        "u": 1,
+        "v": 3,
+        "original_multiplicity": "2",
+        "compressed_multiplicity": 14
+      },
+      {
+        "u": 1,
+        "v": 4,
+        "original_multiplicity": "2",
+        "compressed_multiplicity": 14
+      },
+      {
+        "u": 1,
+        "v": 5,
+        "original_multiplicity": "2",
+        "compressed_multiplicity": 14
+      },
+      {
+        "u": 2,
+        "v": 3,
+        "original_multiplicity": "2",
+        "compressed_multiplicity": 14
+      },
+      {
+        "u": 2,
+        "v": 4,
+        "original_multiplicity": "2",
+        "compressed_multiplicity": 14
+      },
+      {
+        "u": 2,
+        "v": 5,
+        "original_multiplicity": "2",
+        "compressed_multiplicity": 14
+      },
+      {
+        "u": 3,
+        "v": 4,
+        "original_multiplicity": "2",
+        "compressed_multiplicity": 14
+      },
+      {
+        "u": 3,
+        "v": 5,
+        "original_multiplicity": "2",
+        "compressed_multiplicity": 14
+      },
+      {
+        "u": 4,
+        "v": 5,
+        "original_multiplicity": "2",
+        "compressed_multiplicity": 14
+      }
+    ],
+    "denominator": "5",
+    "directed_hk_min_cut": "5"
+  },
+  "trace": {
+    "initial_r": 18,
+    "initial_packing": [
+      [
+        14,
+        28,
+        42,
+        56,
+        74
+      ],
+      [
+        15,
+        29,
+        43,
+        57,
+        75
+      ],
+      [
+        16,
+        30,
+        44,
+        58,
+        76
+      ],
+      [
+        17,
+        31,
+        45,
+        59,
+        77
+      ],
+      [
+        4,
+        18,
+        32,
+        46,
+        60
+      ],
+      [
+        5,
+        19,
+        33,
+        47,
+        61
+      ],
+      [
+        6,
+        20,
+        34,
+        48,
+        62
+      ],
+      [
+        7,
+        21,
+        35,
+        49,
+        63
+      ],
+      [
+        8,
+        22,
+        36,
+        50,
+        64
+      ],
+      [
+        9,
+        23,
+        37,
+        51,
+        65
+      ],
+      [
+        10,
+        24,
+        38,
+        52,
+        66
+      ],
+      [
+        11,
+        25,
+        39,
+        53,
+        67
+      ],
+      [
+        12,
+        26,
+        40,
+        54,
+        68
+      ],
+      [
+        13,
+        27,
+        41,
+        55,
+        69
+      ],
+      [
+        0,
+        70,
+        84,
+        98,
+        112
+      ],
+      [
+        1,
+        71,
+        85,
+        99,
+        113
+      ],
+      [
+        2,
+        72,
+        86,
+        100,
+        114
+      ],
+      [
+        3,
+        73,
+        87,
+        101,
+        115
+      ]
+    ],
+    "rounds": [
+      {
+        "r": 18,
+        "r_next": 9,
+        "edges_before": 210,
+        "edges_after": 45,
+        "s": "4",
+        "q": "18",
+        "x": [
+          [
+            "70",
+            "-14",
+            "-14",
+            "-14",
+            "-14"
+          ],
+          [
+            "-14",
+            "70",
+            "-14",
+            "-14",
+            "-14"
+          ],
+          [
+            "-14",
+            "-14",
+            "70",
+            "-14",
+            "-14"
+          ],
+          [
+            "-14",
+            "-14",
+            "-14",
+            "70",
+            "-14"
+          ],
+          [
+            "-14",
+            "-14",
+            "-14",
+            "-14",
+            "70"
+          ]
+        ],
+        "cone_lambda": {},
+        "union_trees": [
+          [
+            14,
+            28,
+            42,
+            56,
+            74
+          ],
+          [
+            15,
+            29,
+            43,
+            57,
+            75
+          ],
+          [
+            16,
+            30,
+            44,
+            58,
+            76
+          ],
+          [
+            17,
+            31,
+            45,
+            59,
+            77
+          ],
+          [
+            4,
+            18,
+            32,
+            46,
+            60
+          ],
+          [
+            5,
+            19,
+            33,
+            47,
+            61
+          ],
+          [
+            6,
+            20,
+            34,
+            48,
+            62
+          ],
+          [
+            7,
+            21,
+            35,
+            49,
+            63
+          ],
+          [
+            8,
+            22,
+            36,
+            50,
+            64
+          ],
+          [
+            9,
+            23,
+            37,
+            51,
+            65
+          ],
+          [
+            10,
+            24,
+            38,
+            52,
+            66
+          ],
+          [
+            11,
+            25,
+            39,
+            53,
+            67
+          ],
+          [
+            12,
+            26,
+            40,
+            54,
+            68
+          ],
+          [
+            13,
+            27,
+            41,
+            55,
+            69
+          ],
+          [
+            0,
+            70,
+            84,
+            98,
+            112
+          ],
+          [
+            1,
+            71,
+            85,
+            99,
+            113
+          ],
+          [
+            2,
+            72,
+            86,
+            100,
+            114
+          ],
+          [
+            3,
+            73,
+            87,
+            101,
+            115
+          ]
+        ],
+        "selected_edges": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22,
+          24,
+          26,
+          28,
+          30,
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44,
+          46,
+          48,
+          50,
+          52,
+          54,
+          56,
+          58,
+          60,
+          62,
+          64,
+          66,
+          68,
+          70,
+          72,
+          74,
+          76,
+          84,
+          86,
+          98,
+          100,
+          112,
+          114
+        ],
+        "packed_trees": [
+          [
+            14,
+            28,
+            42,
+            56,
+            74
+          ],
+          [
+            16,
+            30,
+            44,
+            58,
+            76
+          ],
+          [
+            4,
+            18,
+            32,
+            46,
+            60
+          ],
+          [
+            6,
+            20,
+            34,
+            48,
+            62
+          ],
+          [
+            8,
+            22,
+            36,
+            50,
+            64
+          ],
+          [
+            10,
+            24,
+            38,
+            52,
+            66
+          ],
+          [
+            12,
+            26,
+            40,
+            54,
+            68
+          ],
+          [
+            0,
+            70,
+            84,
+            98,
+            112
+          ],
+          [
+            2,
+            72,
+            86,
+            100,
+            114
+          ]
+        ],
+        "epsilon": "0",
+        "cut_load_factor": "1/2",
+        "exact_cut_load_factor": "1/2",
+        "worst_cut": [
+          0
+        ],
+        "signing_method": "frobenius",
+        "frame_method": "balancing",
+        "edge_order": "pairs",
+        "union_source": "current_packing",
+        "frame_iterations": 3,
+        "residual_columns": 6167,
+        "seconds": 6.175754949000066
+      },
+      {
+        "r": 9,
+        "r_next": 4,
+        "edges_before": 45,
+        "edges_after": 21,
+        "s": "2",
+        "q": "9",
+        "x": [
+          [
+            "35",
+            "-7",
+            "-7",
+            "-7",
+            "-7"
+          ],
+          [
+            "-7",
+            "17",
+            "-4",
+            "-2",
+            "-2"
+          ],
+          [
+            "-7",
+            "-4",
+            "11",
+            "0",
+            "0"
+          ],
+          [
+            "-7",
+            "-2",
+            "0",
+            "9",
+            "0"
+          ],
+          [
+            "-7",
+            "-2",
+            "0",
+            "0",
+            "9"
+          ]
+        ],
+        "cone_lambda": {},
+        "union_trees": [
+          [
+            14,
+            28,
+            42,
+            56,
+            74
+          ],
+          [
+            16,
+            30,
+            44,
+            58,
+            76
+          ],
+          [
+            4,
+            18,
+            32,
+            46,
+            60
+          ],
+          [
+            6,
+            20,
+            34,
+            48,
+            62
+          ],
+          [
+            8,
+            22,
+            36,
+            50,
+            64
+          ],
+          [
+            10,
+            24,
+            38,
+            52,
+            66
+          ],
+          [
+            12,
+            26,
+            40,
+            54,
+            68
+          ],
+          [
+            0,
+            70,
+            84,
+            98,
+            112
+          ],
+          [
+            2,
+            72,
+            86,
+            100,
+            114
+          ]
+        ],
+        "selected_edges": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          30,
+          34,
+          38,
+          44,
+          48,
+          52,
+          58,
+          62,
+          66,
+          70,
+          74,
+          84,
+          98,
+          112
+        ],
+        "packed_trees": [
+          [
+            0,
+            16,
+            30,
+            44,
+            58
+          ],
+          [
+            4,
+            20,
+            34,
+            48,
+            62
+          ],
+          [
+            8,
+            24,
+            38,
+            52,
+            66
+          ],
+          [
+            12,
+            70,
+            84,
+            98,
+            112
+          ]
+        ],
+        "epsilon": "1029/32768",
+        "cut_load_factor": "17413/32768",
+        "exact_cut_load_factor": "9/17",
+        "worst_cut": [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "signing_method": "frobenius",
+        "frame_method": "balancing",
+        "edge_order": "pairs",
+        "union_source": "current_packing",
+        "frame_iterations": 0,
+        "residual_columns": 523,
+        "seconds": 0.5537790020000557
+      },
+      {
+        "r": 4,
+        "r_next": 2,
+        "edges_before": 21,
+        "edges_after": 10,
+        "s": "2",
+        "q": "4",
+        "x": [
+          [
+            "32",
+            "-8",
+            "-6",
+            "-6",
+            "-6"
+          ],
+          [
+            "-8",
+            "18",
+            "-4",
+            "-2",
+            "-2"
+          ],
+          [
+            "-6",
+            "-4",
+            "10",
+            "0",
+            "0"
+          ],
+          [
+            "-6",
+            "-2",
+            "0",
+            "8",
+            "0"
+          ],
+          [
+            "-6",
+            "-2",
+            "0",
+            "0",
+            "8"
+          ]
+        ],
+        "cone_lambda": {},
+        "union_trees": [
+          [
+            0,
+            16,
+            30,
+            44,
+            58
+          ],
+          [
+            4,
+            20,
+            34,
+            48,
+            62
+          ],
+          [
+            8,
+            24,
+            38,
+            52,
+            66
+          ],
+          [
+            12,
+            70,
+            84,
+            98,
+            112
+          ]
+        ],
+        "selected_edges": [
+          4,
+          12,
+          20,
+          30,
+          38,
+          44,
+          52,
+          62,
+          70,
+          112
+        ],
+        "packed_trees": [
+          [
+            4,
+            20,
+            30,
+            44,
+            62
+          ],
+          [
+            12,
+            38,
+            52,
+            70,
+            112
+          ]
+        ],
+        "epsilon": "5531/65536",
+        "cut_load_factor": "21915/32768",
+        "exact_cut_load_factor": "8/13",
+        "worst_cut": [
+          0,
+          2,
+          5
+        ],
+        "signing_method": "frobenius",
+        "frame_method": "balancing",
+        "edge_order": "pairs",
+        "union_source": "current_packing",
+        "frame_iterations": 0,
+        "residual_columns": 628,
+        "seconds": 0.4087467980000383
+      }
+    ],
+    "stop_reason": "packing_cutoff",
+    "final_r": 2,
+    "final_edges": [
+      4,
+      12,
+      20,
+      30,
+      38,
+      44,
+      52,
+      62,
+      70,
+      112
+    ],
+    "final_tree": [
+      12,
+      38,
+      52,
+      70,
+      112
+    ],
+    "spectral_product": "381605895/2147483648",
+    "exact_cut_product": "36/221",
+    "compressed_tree_thinness": "3/70",
+    "seconds": 7.638551305000192,
+    "limits": {
+      "max_rounds": 32,
+      "frame_cap": 200,
+      "signing_cap": 100,
+      "stop_r": 2
+    }
+  },
+  "tree_pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      5
+    ]
+  ],
+  "beta_exact": "3/2",
+  "beta_worst_cut": [
+    0
+  ],
+  "beta_from_spectral_chain": "3434453055/536870912",
+  "beta_from_exact_cut_chain": "1296/221",
+  "aks_output": "backend=supplied_tree hk_exact=1 tree_cuts_exact=1 beta_exact=3/2 aks_feasible=1 aks_max_visits=3 aks_power_bound=11 metric_bottleneck=1 metric_optimum=1\ntour= 0 1 5 2 3 4 0\n",
+  "baseline_output": "backend=polynomial_baseline hk_exact=1 beta_exact=5/2 support_edges=15 aks_feasible=1 aks_max_visits=5 aks_power_bound=19\ntree= (0,1) (0,2) (0,3) (0,4) (0,5)\ntour= 0 1 2 3 4 5 0\n",
+  "reference_output": "backend=exhaustive_small_reference hk_exact=1 search_complete=1 search_nodes=6102 trees_tested=1296\nbeta_exact=25/18 support_edges=15 aks_feasible=1 aks_max_visits=2 aks_power_bound=11 metric_bottleneck=1 metric_optimum=1\ntree= (0,1) (0,2) (1,3) (2,4) (3,5)\ntour= 0 1 3 5 2 4 0\n",
+  "experiment": {
+    "name": "complete6",
+    "seed": 20261011
+  }
+}

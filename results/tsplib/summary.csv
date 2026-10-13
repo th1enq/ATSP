@@ -1,0 +1,11 @@
+name,n,status,metric,triangle_violations,bottleneck,published_bottleneck_optimum,ratio_to_published_optimum,seconds,hk_threshold,denominator,rounds,stop_reason,beta_bound,hk_seconds,tree_seconds,aks_seconds,error
+br17,17,ok,False,488,8,8,1.0,0.6257170210001277,8,2,0,packing_cutoff,2,0.6025666319992524,0.010954065999612794,0.010350721000577323,
+ftv33,34,ok,True,0,113,113,1.0,5.369875546000003,113,1,0,packing_reached_one,1,5.327922976000082,0.017271382000217272,0.01775355900008435,
+ftv35,36,timeout,True,0,,113,,180.00647168399973,113,6,,,,7.234059440999772,,,TimeoutError: per-instance wall clock limit exceeded
+ftv38,39,ok,True,0,143,113,1.2654867256637168,28.249124644000403,113,2,0,packing_cutoff,2,28.138435659000606,0.06140021800001705,0.03914102199996705,
+p43,43,ok,False,6738,5008,5008,1.0,8.603879475000213,5008,1,0,packing_reached_one,1,8.540028213999904,0.025654140000369807,0.02644301700001961,
+ftv44,45,timeout,True,0,,113,,180.01231282299977,113,1080,,,,57.84955329500008,,,TimeoutError: per-instance wall clock limit exceeded
+ftv47,48,timeout,True,0,,104,,180.01822447500035,104,144,,,,60.05976376699982,,,TimeoutError: per-instance wall clock limit exceeded
+ry48p,48,timeout,False,1540,,577,,180.00529651600027,577,40,,,,85.26443995200043,,,TimeoutError: per-instance wall clock limit exceeded
+ft53,53,timeout,True,0,,977,,180.0265200169997,977,137,,,,30.367627329999777,,,TimeoutError: per-instance wall clock limit exceeded
+ftv55,56,ok,True,0,220,64,3.4375,146.57605657400018,64,4,1,packing_reached_one,4,9.370462578000115,133.06276468600026,4.115624312000364,

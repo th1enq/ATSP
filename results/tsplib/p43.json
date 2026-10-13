@@ -1,0 +1,379 @@
+{
+  "name": "p43",
+  "n": 43,
+  "objective": "maximum original directed edge cost",
+  "matrix_transformation": "none; diagonal excluded",
+  "input_sha256": "2900c34b6997310f86775c8a1e6553ad62bf5e8041e253cf632f7ba9cb700153",
+  "matrix_sha256": "7b0129987dff543773c8497310c523bb2bcf872e3028281fd076c366a774d1b8",
+  "published_bottleneck_optimum": 5008,
+  "published_optimum_source": "https://cedric.cnam.fr/~bentzc/INITREC/Files/CB1.pdf",
+  "exact_references_run": false,
+  "triangle_violations": 6738,
+  "metric": false,
+  "hk": {
+    "feasible": true,
+    "threshold": 5008,
+    "denominator": 1,
+    "arcs": [
+      [
+        0,
+        24,
+        1
+      ],
+      [
+        1,
+        26,
+        1
+      ],
+      [
+        2,
+        17,
+        1
+      ],
+      [
+        3,
+        29,
+        1
+      ],
+      [
+        4,
+        7,
+        1
+      ],
+      [
+        5,
+        2,
+        1
+      ],
+      [
+        6,
+        19,
+        1
+      ],
+      [
+        7,
+        21,
+        1
+      ],
+      [
+        8,
+        14,
+        1
+      ],
+      [
+        9,
+        32,
+        1
+      ],
+      [
+        10,
+        38,
+        1
+      ],
+      [
+        11,
+        13,
+        1
+      ],
+      [
+        12,
+        25,
+        1
+      ],
+      [
+        13,
+        9,
+        1
+      ],
+      [
+        14,
+        1,
+        1
+      ],
+      [
+        15,
+        35,
+        1
+      ],
+      [
+        16,
+        5,
+        1
+      ],
+      [
+        17,
+        15,
+        1
+      ],
+      [
+        18,
+        12,
+        1
+      ],
+      [
+        19,
+        16,
+        1
+      ],
+      [
+        20,
+        28,
+        1
+      ],
+      [
+        21,
+        27,
+        1
+      ],
+      [
+        22,
+        34,
+        1
+      ],
+      [
+        23,
+        20,
+        1
+      ],
+      [
+        24,
+        4,
+        1
+      ],
+      [
+        25,
+        0,
+        1
+      ],
+      [
+        26,
+        10,
+        1
+      ],
+      [
+        27,
+        6,
+        1
+      ],
+      [
+        28,
+        31,
+        1
+      ],
+      [
+        29,
+        11,
+        1
+      ],
+      [
+        30,
+        18,
+        1
+      ],
+      [
+        31,
+        36,
+        1
+      ],
+      [
+        32,
+        22,
+        1
+      ],
+      [
+        33,
+        30,
+        1
+      ],
+      [
+        34,
+        23,
+        1
+      ],
+      [
+        35,
+        8,
+        1
+      ],
+      [
+        36,
+        33,
+        1
+      ],
+      [
+        37,
+        3,
+        1
+      ],
+      [
+        38,
+        40,
+        1
+      ],
+      [
+        39,
+        37,
+        1
+      ],
+      [
+        40,
+        42,
+        1
+      ],
+      [
+        41,
+        39,
+        1
+      ],
+      [
+        42,
+        41,
+        1
+      ]
+    ],
+    "iterations": 8,
+    "cut_count": 28,
+    "verification": "exact degrees and integral root-v min-cuts",
+    "predecessor": {
+      "feasible": false,
+      "threshold": 446,
+      "iterations": 2,
+      "cut_count": 5,
+      "proof": {
+        "multipliers": [
+          {
+            "kind": "cut",
+            "side": [
+              38,
+              39,
+              40,
+              41,
+              42
+            ],
+            "sign": -1,
+            "weight": "1"
+          }
+        ],
+        "weighted_rhs": "-1",
+        "verification": "exact rational Farkas certificate"
+      }
+    },
+    "queries": [
+      {
+        "threshold": 92,
+        "feasible": false,
+        "iterations": 2,
+        "cuts": 3,
+        "seconds": 0.042556440999760525
+      },
+      {
+        "threshold": 358,
+        "feasible": false,
+        "iterations": 2,
+        "cuts": 4,
+        "seconds": 0.048785023000164074
+      },
+      {
+        "threshold": 5018,
+        "feasible": true,
+        "iterations": 61,
+        "cuts": 435,
+        "seconds": 8.02979947499989
+      },
+      {
+        "threshold": 426,
+        "feasible": false,
+        "iterations": 2,
+        "cuts": 4,
+        "seconds": 0.05040868500054785
+      },
+      {
+        "threshold": 5008,
+        "feasible": true,
+        "iterations": 8,
+        "cuts": 28,
+        "seconds": 0.2654138560001229
+      },
+      {
+        "threshold": 438,
+        "feasible": false,
+        "iterations": 2,
+        "cuts": 2,
+        "seconds": 0.05226255700017646
+      },
+      {
+        "threshold": 446,
+        "feasible": false,
+        "iterations": 2,
+        "cuts": 5,
+        "seconds": 0.050598735999301425
+      }
+    ],
+    "lower_bound_certified": true,
+    "subset_enumeration": false
+  },
+  "hk_seconds": 8.540028213999904,
+  "tree_seconds": 0.025654140000369807,
+  "tree": {
+    "rounds": 0,
+    "stop_reason": "packing_reached_one",
+    "initial_copies": 43,
+    "final_edges": 43,
+    "beta_bound": "1"
+  },
+  "aks_seconds": 0.02644301700001961,
+  "aks_output": "backend=supplied_tree hk_exact=1 tree_cuts_exact=0 tree_bound=universal_support beta_bound=1/1 aks_feasible=1 aks_max_visits=1 aks_power_bound=7 metric_bottleneck=1\ntour= 0 24 4 7 21 27 6 19 16 5 2 17 15 35 8 14 1 26 10 38 40 42 41 39 37 3 29 11 13 9 32 22 34 23 20 28 31 36 33 30 18 12 25 0\n",
+  "status": "ok",
+  "tour": [
+    0,
+    24,
+    4,
+    7,
+    21,
+    27,
+    6,
+    19,
+    16,
+    5,
+    2,
+    17,
+    15,
+    35,
+    8,
+    14,
+    1,
+    26,
+    10,
+    38,
+    40,
+    42,
+    41,
+    39,
+    37,
+    3,
+    29,
+    11,
+    13,
+    9,
+    32,
+    22,
+    34,
+    23,
+    20,
+    28,
+    31,
+    36,
+    33,
+    30,
+    18,
+    12,
+    25,
+    0
+  ],
+  "bottleneck": 5008,
+  "total_cost": 6707,
+  "ratio_to_hk_lower_bound": 1.0,
+  "ratio_to_published_optimum": 1.0,
+  "theorem_assumptions_satisfied": false,
+  "seconds": 8.603879475000213
+}

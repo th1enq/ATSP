@@ -1,0 +1,2 @@
+name,n,status,metric,triangle_violations,bottleneck,published_bottleneck_optimum,ratio_to_published_optimum,seconds,hk_threshold,denominator,rounds,stop_reason,beta_bound,hk_seconds,tree_seconds,aks_seconds,error
+br17,17,ok,False,488,8,8,1.0,0.614090084000054,8,2,0,packing_cutoff,2,0.5912679989996832,0.011079677000452648,0.00997576699955971,

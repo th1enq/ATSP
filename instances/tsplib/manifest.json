@@ -1,0 +1,88 @@
+{
+  "catalog": "https://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/atsp/atspindex.html",
+  "retrieved": "2026-10-11",
+  "retrieval": "Web tool fetched TSPLib.Net plaintext mirrors. Direct archive downloads are unavailable in this environment. Whitespace is normalized where the web tool returned a single line; numerical entries are unchanged. Archive bytes have not been independently compared to Heidelberg gzip files.",
+  "matrix_hash_convention": "SHA256 of compact JSON integer rows after setting excluded diagonal sentinel entries to zero.",
+  "instances": [
+    {
+      "name": "br17",
+      "n": 17,
+      "path": "br17.atsp",
+      "mirror": "https://raw.githubusercontent.com/pdrozdowski/TSPLib.Net/master/TSPLIB95/atsp/br17.atsp",
+      "file_sha256": "4679dcde6a9e8b4d0483e80e1b851da86c4e913ccd8c29e3f46f29f8e7160036",
+      "matrix_sha256": "450918c185b88f1d6f33b3dd725505e98e345ba490fe761db98d76b6eefd6b29"
+    },
+    {
+      "name": "ft53",
+      "n": 53,
+      "path": "ft53.atsp",
+      "mirror": "https://raw.githubusercontent.com/pdrozdowski/TSPLib.Net/master/TSPLIB95/atsp/ft53.atsp",
+      "file_sha256": "33e640145cadf52d7fb5e13a49b43b0363381faaea3de9241465f81fca5d465c",
+      "matrix_sha256": "0485e21fa04b6e9d9153537ab2b1cf88182c8f74ba82bf425b5dba1b5052ee46"
+    },
+    {
+      "name": "ftv33",
+      "n": 34,
+      "path": "ftv33.atsp",
+      "mirror": "https://raw.githubusercontent.com/pdrozdowski/TSPLib.Net/master/TSPLIB95/atsp/ftv33.atsp",
+      "file_sha256": "4c4dbe53ebd536905548498c53990227e157a01ca94929ef7ecd9237166fc622",
+      "matrix_sha256": "fec5c28c345f5df40c9bac21486c3fa9581915acecca263d791a5fd47dcec4d6"
+    },
+    {
+      "name": "ftv35",
+      "n": 36,
+      "path": "ftv35.atsp",
+      "mirror": "https://raw.githubusercontent.com/pdrozdowski/TSPLib.Net/master/TSPLIB95/atsp/ftv35.atsp",
+      "file_sha256": "fc6efd2d16498bf9b72dbfcea29e4b29abff4e211bdf36d05a4b87f1543b01ff",
+      "matrix_sha256": "01eda4a9569291969e61c7710449e391a68b9176506b2ec5e7fa4c4f694bb7a5"
+    },
+    {
+      "name": "ftv38",
+      "n": 39,
+      "path": "ftv38.atsp",
+      "mirror": "https://raw.githubusercontent.com/pdrozdowski/TSPLib.Net/master/TSPLIB95/atsp/ftv38.atsp",
+      "file_sha256": "be2e82512588021f7523d889209547d325389df18758abb7836e3cc858661c02",
+      "matrix_sha256": "c61077180d943090e5a8d1860e8eb1dc1ba30f88a04d99461d1fc245ab38ff0e"
+    },
+    {
+      "name": "ftv44",
+      "n": 45,
+      "path": "ftv44.atsp",
+      "mirror": "https://raw.githubusercontent.com/pdrozdowski/TSPLib.Net/master/TSPLIB95/atsp/ftv44.atsp",
+      "file_sha256": "e2f56f833bfc07c430a2586451711494a4834622e20e76760560d2aad376b55a",
+      "matrix_sha256": "08da88806c744ada84aea5979cf759fa867bd6cd20d4c09877ba3de820ece686"
+    },
+    {
+      "name": "ftv47",
+      "n": 48,
+      "path": "ftv47.atsp",
+      "mirror": "https://raw.githubusercontent.com/pdrozdowski/TSPLib.Net/master/TSPLIB95/atsp/ftv47.atsp",
+      "file_sha256": "3fe46abcca1267bdb3f1d84089212e714da452e5033a610a9df70c8ec8634d42",
+      "matrix_sha256": "07bcc1314047ce2502893d00e217380f1547fc4a06fdc76d56d05694a0a6d172"
+    },
+    {
+      "name": "ftv55",
+      "n": 56,
+      "path": "ftv55.atsp",
+      "mirror": "https://raw.githubusercontent.com/pdrozdowski/TSPLib.Net/master/TSPLIB95/atsp/ftv55.atsp",
+      "file_sha256": "d13e3eb1350ef32586edd7a53eb48e9248ffb3092277ef1af8e484dcfe5ba3c4",
+      "matrix_sha256": "c4c28c83fc0c37fc25b8a3ca442fba2c6733b772e35b02f37fb6786b5837df5a"
+    },
+    {
+      "name": "p43",
+      "n": 43,
+      "path": "p43.atsp",
+      "mirror": "https://raw.githubusercontent.com/pdrozdowski/TSPLib.Net/master/TSPLIB95/atsp/p43.atsp",
+      "file_sha256": "2900c34b6997310f86775c8a1e6553ad62bf5e8041e253cf632f7ba9cb700153",
+      "matrix_sha256": "7b0129987dff543773c8497310c523bb2bcf872e3028281fd076c366a774d1b8"
+    },
+    {
+      "name": "ry48p",
+      "n": 48,
+      "path": "ry48p.atsp",
+      "mirror": "https://raw.githubusercontent.com/pdrozdowski/TSPLib.Net/master/TSPLIB95/atsp/ry48p.atsp",
+      "file_sha256": "b3a04d703680bd15eb3849e91f9ec1f2b81cb11f04441a28547c22a7c2afe9b2",
+      "matrix_sha256": "2dd2eaa861e5102661053cd36fb242d3ff2c7e6057e6b09862b899423a1db8ea"
+    }
+  ]
+}

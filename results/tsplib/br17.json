@@ -1,0 +1,243 @@
+{
+  "name": "br17",
+  "n": 17,
+  "objective": "maximum original directed edge cost",
+  "matrix_transformation": "none; diagonal excluded",
+  "input_sha256": "4679dcde6a9e8b4d0483e80e1b851da86c4e913ccd8c29e3f46f29f8e7160036",
+  "matrix_sha256": "450918c185b88f1d6f33b3dd725505e98e345ba490fe761db98d76b6eefd6b29",
+  "published_bottleneck_optimum": 8,
+  "published_optimum_source": "https://cedric.cnam.fr/~bentzc/INITREC/Files/CB1.pdf",
+  "exact_references_run": false,
+  "triangle_violations": 488,
+  "metric": false,
+  "hk": {
+    "feasible": true,
+    "threshold": 8,
+    "denominator": 2,
+    "arcs": [
+      [
+        0,
+        11,
+        2
+      ],
+      [
+        1,
+        7,
+        2
+      ],
+      [
+        2,
+        9,
+        2
+      ],
+      [
+        3,
+        6,
+        1
+      ],
+      [
+        3,
+        14,
+        1
+      ],
+      [
+        4,
+        14,
+        1
+      ],
+      [
+        4,
+        15,
+        1
+      ],
+      [
+        5,
+        3,
+        2
+      ],
+      [
+        6,
+        0,
+        2
+      ],
+      [
+        7,
+        12,
+        1
+      ],
+      [
+        7,
+        16,
+        1
+      ],
+      [
+        8,
+        10,
+        2
+      ],
+      [
+        9,
+        12,
+        1
+      ],
+      [
+        9,
+        15,
+        1
+      ],
+      [
+        10,
+        5,
+        2
+      ],
+      [
+        11,
+        13,
+        2
+      ],
+      [
+        12,
+        1,
+        1
+      ],
+      [
+        12,
+        6,
+        1
+      ],
+      [
+        13,
+        2,
+        2
+      ],
+      [
+        14,
+        1,
+        1
+      ],
+      [
+        14,
+        4,
+        1
+      ],
+      [
+        15,
+        4,
+        1
+      ],
+      [
+        15,
+        16,
+        1
+      ],
+      [
+        16,
+        8,
+        2
+      ]
+    ],
+    "iterations": 3,
+    "cut_count": 5,
+    "verification": "exact degrees and integral root-v min-cuts",
+    "predecessor": {
+      "feasible": false,
+      "threshold": 6,
+      "iterations": 2,
+      "cut_count": 2,
+      "proof": {
+        "multipliers": [
+          {
+            "kind": "cut",
+            "side": [
+              0,
+              1,
+              2,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              16
+            ],
+            "sign": -1,
+            "weight": "1"
+          }
+        ],
+        "weighted_rhs": "-1",
+        "verification": "exact rational Farkas certificate"
+      }
+    },
+    "queries": [
+      {
+        "threshold": 12,
+        "feasible": true,
+        "iterations": 19,
+        "cuts": 66,
+        "seconds": 0.5518234110004414
+      },
+      {
+        "threshold": 5,
+        "feasible": false,
+        "iterations": 2,
+        "cuts": 6,
+        "seconds": 0.014417424999919604
+      },
+      {
+        "threshold": 8,
+        "feasible": true,
+        "iterations": 3,
+        "cuts": 5,
+        "seconds": 0.020949355000084324
+      },
+      {
+        "threshold": 6,
+        "feasible": false,
+        "iterations": 2,
+        "cuts": 2,
+        "seconds": 0.015305875999729324
+      }
+    ],
+    "lower_bound_certified": true,
+    "subset_enumeration": false
+  },
+  "hk_seconds": 0.6025666319992524,
+  "tree_seconds": 0.010954065999612794,
+  "tree": {
+    "rounds": 0,
+    "stop_reason": "packing_cutoff",
+    "initial_copies": 34,
+    "final_edges": 34,
+    "beta_bound": "2"
+  },
+  "aks_seconds": 0.010350721000577323,
+  "aks_output": "backend=supplied_tree hk_exact=1 tree_cuts_exact=0 tree_bound=universal_support beta_bound=2/1 aks_feasible=1 aks_max_visits=2 aks_power_bound=15 metric_bottleneck=6\ntour= 0 11 13 2 9 12 1 7 16 8 10 5 14 15 4 3 6 0\n",
+  "status": "ok",
+  "tour": [
+    0,
+    11,
+    13,
+    2,
+    9,
+    12,
+    1,
+    7,
+    16,
+    8,
+    10,
+    5,
+    14,
+    15,
+    4,
+    3,
+    6,
+    0
+  ],
+  "bottleneck": 8,
+  "total_cost": 46,
+  "ratio_to_hk_lower_bound": 1.0,
+  "ratio_to_published_optimum": 1.0,
+  "theorem_assumptions_satisfied": false,
+  "seconds": 0.6257170210001277
+}

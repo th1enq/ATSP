@@ -1,0 +1,3 @@
+name,n,denominator,input_graph_kind,input_copies,section6_copies,rounds,final_edges,final_r,stop_reason,beta_bound_for_aks,beta_from_spectral_chain,aks_feasible,aks_max_visits,metric_bottleneck,construction_seconds,seconds
+mixture20,20,4,reduced_original,80,8000,1,38,2,packing_cutoff,4,12901/4096,1,3,3,5.430839460999778,5.6065455629995995
+mixture32,32,4,reduced_original,128,32768,1,62,2,packing_cutoff,4,13341/4096,1,3,4,37.758602277000136,38.60444232999998

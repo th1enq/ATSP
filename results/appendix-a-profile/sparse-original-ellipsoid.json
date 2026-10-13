@@ -1,0 +1,53 @@
+{
+  "separator": "sparse",
+  "iteration_cap": 400,
+  "wall_budget_seconds": 30,
+  "cprofile_enabled": false,
+  "python": "3.13.12",
+  "elapsed_seconds": 2.216039457000079,
+  "status": "incomplete",
+  "phase": "appendix-a-signing",
+  "error": "ellipsoid iteration budget reached; no volume conclusion",
+  "error_type": "IterationLimitReached",
+  "separator_metrics": {
+    "calls": 402,
+    "seconds": 0.46594148599979235,
+    "max_numerator_bits": 102,
+    "max_denominator_bits": 89,
+    "point_sequence_sha256": "de4e93093680568ee07c567c3744de0351bd6de2ba17f595ee94926076da752c"
+  },
+  "potential_queries": [
+    {
+      "accuracy": "1/4",
+      "accuracy_denominator_bits": 3,
+      "variables": 7,
+      "matrix_dimension": 2,
+      "completed": false,
+      "seconds": 2.1799439919996075
+    }
+  ],
+  "sdp_queries": [
+    {
+      "accuracy": "1/8",
+      "variables": 7,
+      "completed": false,
+      "seconds": 2.1736225989998275
+    }
+  ],
+  "ellipsoid_solves": [
+    {
+      "dimension": 7,
+      "iterations": 401,
+      "completed": false,
+      "inner_radius": "1/80000000000",
+      "max_iterations": 400,
+      "error_type": "IterationLimitReached",
+      "seconds": 2.172434952999538
+    }
+  ],
+  "replay": {
+    "status": "incomplete",
+    "verified_responses": 0,
+    "phase": "appendix-a-signing"
+  }
+}

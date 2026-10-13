@@ -1,0 +1,86 @@
+{
+  "separator": "sparse",
+  "iteration_cap": 100000,
+  "wall_budget_seconds": 30,
+  "cprofile_enabled": false,
+  "python": "3.13.12",
+  "elapsed_seconds": 30.00354531300036,
+  "status": "incomplete",
+  "phase": "appendix-a-signing",
+  "error": "profiling wall time budget reached",
+  "error_type": "RuntimeError",
+  "separator_metrics": {
+    "calls": 8134,
+    "seconds": 10.799215704030757,
+    "max_numerator_bits": 102,
+    "max_denominator_bits": 89,
+    "point_sequence_sha256": "141dc2cd8adea839b099ecb9e09812e69e1af7622869e668ec941ffcaaf0be02"
+  },
+  "potential_queries": [
+    {
+      "accuracy": "1/4",
+      "accuracy_denominator_bits": 3,
+      "variables": 7,
+      "matrix_dimension": 2,
+      "completed": false,
+      "seconds": 29.967728099999476
+    }
+  ],
+  "sdp_queries": [
+    {
+      "accuracy": "1/8",
+      "variables": 7,
+      "completed": false,
+      "seconds": 29.960949719999917
+    }
+  ],
+  "ellipsoid_solves": [
+    {
+      "dimension": 7,
+      "iterations": 624,
+      "completed": true,
+      "inner_radius": "1/80000000000",
+      "max_iterations": 100000,
+      "seconds": 2.1130046979997132
+    },
+    {
+      "dimension": 7,
+      "iterations": 3686,
+      "completed": false,
+      "inner_radius": "1/80000000000",
+      "max_iterations": 100000,
+      "error_type": "VolumeCutoffReached",
+      "seconds": 13.887478900000133
+    },
+    {
+      "dimension": 7,
+      "iterations": 683,
+      "completed": true,
+      "inner_radius": "1/80000000000",
+      "max_iterations": 100000,
+      "seconds": 2.329304950999358
+    },
+    {
+      "dimension": 7,
+      "iterations": 943,
+      "completed": true,
+      "inner_radius": "1/80000000000",
+      "max_iterations": 100000,
+      "seconds": 3.345608173999608
+    },
+    {
+      "dimension": 7,
+      "iterations": 2194,
+      "completed": false,
+      "inner_radius": "1/80000000000",
+      "max_iterations": 100000,
+      "error_type": "RuntimeError",
+      "seconds": 8.27920251500018
+    }
+  ],
+  "replay": {
+    "status": "incomplete",
+    "verified_responses": 0,
+    "phase": "appendix-a-signing"
+  }
+}

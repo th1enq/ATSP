@@ -1,0 +1,675 @@
+{
+  "name": "ry48p",
+  "n": 48,
+  "objective": "maximum original directed edge cost",
+  "matrix_transformation": "none; diagonal excluded",
+  "input_sha256": "b3a04d703680bd15eb3849e91f9ec1f2b81cb11f04441a28547c22a7c2afe9b2",
+  "matrix_sha256": "2dd2eaa861e5102661053cd36fb242d3ff2c7e6057e6b09862b899423a1db8ea",
+  "published_bottleneck_optimum": 577,
+  "published_optimum_source": "https://cedric.cnam.fr/~bentzc/INITREC/Files/CB1.pdf",
+  "exact_references_run": false,
+  "triangle_violations": 1540,
+  "metric": false,
+  "hk": {
+    "feasible": true,
+    "threshold": 577,
+    "denominator": 40,
+    "arcs": [
+      [
+        0,
+        8,
+        20
+      ],
+      [
+        0,
+        37,
+        20
+      ],
+      [
+        1,
+        41,
+        40
+      ],
+      [
+        2,
+        15,
+        10
+      ],
+      [
+        2,
+        21,
+        10
+      ],
+      [
+        2,
+        40,
+        20
+      ],
+      [
+        3,
+        9,
+        40
+      ],
+      [
+        4,
+        28,
+        40
+      ],
+      [
+        5,
+        42,
+        40
+      ],
+      [
+        6,
+        17,
+        14
+      ],
+      [
+        6,
+        29,
+        22
+      ],
+      [
+        6,
+        36,
+        4
+      ],
+      [
+        7,
+        15,
+        30
+      ],
+      [
+        7,
+        37,
+        10
+      ],
+      [
+        8,
+        0,
+        20
+      ],
+      [
+        8,
+        21,
+        20
+      ],
+      [
+        9,
+        23,
+        20
+      ],
+      [
+        9,
+        44,
+        20
+      ],
+      [
+        10,
+        20,
+        20
+      ],
+      [
+        10,
+        32,
+        6
+      ],
+      [
+        10,
+        46,
+        14
+      ],
+      [
+        11,
+        43,
+        34
+      ],
+      [
+        11,
+        46,
+        6
+      ],
+      [
+        12,
+        13,
+        20
+      ],
+      [
+        12,
+        31,
+        20
+      ],
+      [
+        13,
+        22,
+        30
+      ],
+      [
+        13,
+        24,
+        10
+      ],
+      [
+        14,
+        30,
+        8
+      ],
+      [
+        14,
+        35,
+        18
+      ],
+      [
+        14,
+        46,
+        14
+      ],
+      [
+        15,
+        7,
+        10
+      ],
+      [
+        15,
+        21,
+        10
+      ],
+      [
+        15,
+        40,
+        20
+      ],
+      [
+        16,
+        26,
+        40
+      ],
+      [
+        17,
+        14,
+        34
+      ],
+      [
+        17,
+        19,
+        6
+      ],
+      [
+        18,
+        16,
+        9
+      ],
+      [
+        18,
+        27,
+        31
+      ],
+      [
+        19,
+        39,
+        14
+      ],
+      [
+        19,
+        45,
+        26
+      ],
+      [
+        20,
+        12,
+        40
+      ],
+      [
+        21,
+        7,
+        20
+      ],
+      [
+        21,
+        8,
+        20
+      ],
+      [
+        22,
+        10,
+        20
+      ],
+      [
+        22,
+        13,
+        10
+      ],
+      [
+        22,
+        33,
+        10
+      ],
+      [
+        23,
+        47,
+        40
+      ],
+      [
+        24,
+        22,
+        10
+      ],
+      [
+        24,
+        33,
+        10
+      ],
+      [
+        24,
+        38,
+        20
+      ],
+      [
+        25,
+        3,
+        20
+      ],
+      [
+        25,
+        34,
+        20
+      ],
+      [
+        26,
+        18,
+        31
+      ],
+      [
+        26,
+        29,
+        9
+      ],
+      [
+        27,
+        5,
+        40
+      ],
+      [
+        28,
+        1,
+        40
+      ],
+      [
+        29,
+        6,
+        18
+      ],
+      [
+        29,
+        18,
+        9
+      ],
+      [
+        29,
+        19,
+        4
+      ],
+      [
+        29,
+        27,
+        9
+      ],
+      [
+        30,
+        6,
+        14
+      ],
+      [
+        30,
+        39,
+        26
+      ],
+      [
+        31,
+        4,
+        40
+      ],
+      [
+        32,
+        6,
+        8
+      ],
+      [
+        32,
+        10,
+        20
+      ],
+      [
+        32,
+        43,
+        6
+      ],
+      [
+        32,
+        46,
+        6
+      ],
+      [
+        33,
+        2,
+        20
+      ],
+      [
+        33,
+        13,
+        10
+      ],
+      [
+        33,
+        24,
+        10
+      ],
+      [
+        34,
+        3,
+        20
+      ],
+      [
+        34,
+        44,
+        20
+      ],
+      [
+        35,
+        19,
+        22
+      ],
+      [
+        35,
+        36,
+        18
+      ],
+      [
+        36,
+        16,
+        31
+      ],
+      [
+        36,
+        29,
+        9
+      ],
+      [
+        37,
+        0,
+        20
+      ],
+      [
+        37,
+        17,
+        20
+      ],
+      [
+        38,
+        20,
+        20
+      ],
+      [
+        38,
+        31,
+        20
+      ],
+      [
+        39,
+        7,
+        10
+      ],
+      [
+        39,
+        11,
+        6
+      ],
+      [
+        39,
+        37,
+        10
+      ],
+      [
+        39,
+        45,
+        14
+      ],
+      [
+        40,
+        2,
+        20
+      ],
+      [
+        40,
+        33,
+        20
+      ],
+      [
+        41,
+        25,
+        40
+      ],
+      [
+        42,
+        35,
+        22
+      ],
+      [
+        42,
+        36,
+        18
+      ],
+      [
+        43,
+        17,
+        6
+      ],
+      [
+        43,
+        32,
+        34
+      ],
+      [
+        44,
+        23,
+        20
+      ],
+      [
+        44,
+        34,
+        20
+      ],
+      [
+        45,
+        19,
+        8
+      ],
+      [
+        45,
+        30,
+        32
+      ],
+      [
+        46,
+        11,
+        34
+      ],
+      [
+        46,
+        14,
+        6
+      ],
+      [
+        47,
+        24,
+        20
+      ],
+      [
+        47,
+        38,
+        20
+      ]
+    ],
+    "iterations": 37,
+    "cut_count": 297,
+    "verification": "exact degrees and integral root-v min-cuts",
+    "predecessor": {
+      "feasible": false,
+      "threshold": 575,
+      "iterations": 5,
+      "cut_count": 46,
+      "proof": {
+        "multipliers": [
+          {
+            "kind": "out",
+            "vertex": 9,
+            "sign": 1,
+            "weight": "1/9"
+          },
+          {
+            "kind": "out",
+            "vertex": 28,
+            "sign": 1,
+            "weight": "1/9"
+          },
+          {
+            "kind": "out",
+            "vertex": 34,
+            "sign": 1,
+            "weight": "1/9"
+          },
+          {
+            "kind": "in",
+            "vertex": 41,
+            "sign": 1,
+            "weight": "1/9"
+          },
+          {
+            "kind": "in",
+            "vertex": 1,
+            "sign": -1,
+            "weight": "1/9"
+          },
+          {
+            "kind": "in",
+            "vertex": 44,
+            "sign": -1,
+            "weight": "1/9"
+          },
+          {
+            "kind": "cut",
+            "side": [
+              34,
+              44
+            ],
+            "sign": -1,
+            "weight": "1/9"
+          },
+          {
+            "kind": "cut",
+            "side": [
+              1,
+              28
+            ],
+            "sign": -1,
+            "weight": "1/9"
+          },
+          {
+            "kind": "cut",
+            "side": [
+              3,
+              9,
+              25,
+              34,
+              44
+            ],
+            "sign": -1,
+            "weight": "1/9"
+          }
+        ],
+        "weighted_rhs": "-1/9",
+        "verification": "exact rational Farkas certificate"
+      }
+    },
+    "queries": [
+      {
+        "threshold": 1129,
+        "feasible": true,
+        "iterations": 190,
+        "cuts": 1528,
+        "seconds": 66.16419202599991
+      },
+      {
+        "threshold": 667,
+        "feasible": true,
+        "iterations": 103,
+        "cuts": 822,
+        "seconds": 11.417881821000265
+      },
+      {
+        "threshold": 442,
+        "feasible": false,
+        "iterations": 1,
+        "cuts": 0,
+        "seconds": 0.010669555000276887
+      },
+      {
+        "threshold": 551,
+        "feasible": false,
+        "iterations": 4,
+        "cuts": 28,
+        "seconds": 0.062085448000289034
+      },
+      {
+        "threshold": 609,
+        "feasible": true,
+        "iterations": 72,
+        "cuts": 514,
+        "seconds": 5.77514207799959
+      },
+      {
+        "threshold": 577,
+        "feasible": true,
+        "iterations": 37,
+        "cuts": 297,
+        "seconds": 1.5967505130001882
+      },
+      {
+        "threshold": 564,
+        "feasible": false,
+        "iterations": 3,
+        "cuts": 18,
+        "seconds": 0.04360683600043558
+      },
+      {
+        "threshold": 570,
+        "feasible": false,
+        "iterations": 3,
+        "cuts": 16,
+        "seconds": 0.04523853800037614
+      },
+      {
+        "threshold": 574,
+        "feasible": false,
+        "iterations": 4,
+        "cuts": 27,
+        "seconds": 0.06152452500009531
+      },
+      {
+        "threshold": 575,
+        "feasible": false,
+        "iterations": 5,
+        "cuts": 46,
+        "seconds": 0.08694352100064862
+      }
+    ],
+    "lower_bound_certified": true,
+    "subset_enumeration": false
+  },
+  "hk_seconds": 85.26443995200043,
+  "status": "timeout",
+  "stage": "tree_construction",
+  "error": "TimeoutError: per-instance wall clock limit exceeded",
+  "seconds": 180.00529651600027
+}

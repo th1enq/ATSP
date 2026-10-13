@@ -1,0 +1,339 @@
+Start testing: Oct 11 14:13 +07
+----------------------------------------------------------
+Unable to find executable: /home/thienquach_onemount/Documents/atsp/build/test_core
+1/21 Testing: core
+1/21 Test: core
+Command: ""
+Directory: /home/th1enq/Downloads/KLTN/build
+"core" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"core" end time: Oct 11 14:13 +07
+"core" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/thienquach_onemount/Documents/atsp/build/batsp
+2/21 Testing: certified_witness
+2/21 Test: certified_witness
+Command: "" "construct-certified" "/home/thienquach_onemount/Documents/atsp/instances/regression/witness6_hk.txt"
+Directory: /home/th1enq/Downloads/KLTN/build
+"certified_witness" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"certified_witness" end time: Oct 11 14:13 +07
+"certified_witness" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/thienquach_onemount/Documents/atsp/build/batsp
+3/21 Testing: polynomial_baseline_witness
+3/21 Test: polynomial_baseline_witness
+Command: "" "construct-polynomial-baseline" "/home/thienquach_onemount/Documents/atsp/instances/regression/witness6_hk.txt"
+Directory: /home/th1enq/Downloads/KLTN/build
+"polynomial_baseline_witness" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"polynomial_baseline_witness" end time: Oct 11 14:13 +07
+"polynomial_baseline_witness" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /usr/bin/python3
+4/21 Testing: exact_compression
+4/21 Test: exact_compression
+Command: "" "/home/thienquach_onemount/Documents/atsp/tests/test_certify_compress.py"
+Directory: /home/th1enq/Downloads/KLTN/build
+"exact_compression" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"exact_compression" end time: Oct 11 14:13 +07
+"exact_compression" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /usr/bin/python3
+5/21 Testing: binary_compression
+5/21 Test: binary_compression
+Command: "" "/home/thienquach_onemount/Documents/atsp/scripts/certify_compress.py" "--kind" "binary" "/home/thienquach_onemount/Documents/atsp/instances/regression/binary_triangle.txt"
+Directory: /home/th1enq/Downloads/KLTN/build
+"binary_compression" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"binary_compression" end time: Oct 11 14:13 +07
+"binary_compression" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /usr/bin/python3
+6/21 Testing: tree_packing
+6/21 Test: tree_packing
+Command: "" "/home/thienquach_onemount/Documents/atsp/tests/test_tree_packing.py"
+Directory: /home/th1enq/Downloads/KLTN/build
+"tree_packing" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"tree_packing" end time: Oct 11 14:13 +07
+"tree_packing" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /usr/bin/python3
+7/21 Testing: packing_cli
+7/21 Test: packing_cli
+Command: "" "/home/thienquach_onemount/Documents/atsp/tests/test_packing_cli.py"
+Directory: /home/th1enq/Downloads/KLTN/build
+"packing_cli" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"packing_cli" end time: Oct 11 14:13 +07
+"packing_cli" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /usr/bin/python3
+8/21 Testing: weighted_partition_oracle
+8/21 Test: weighted_partition_oracle
+Command: "" "/home/thienquach_onemount/Documents/atsp/tests/test_weighted_partition_oracle.py"
+Directory: /home/th1enq/Downloads/KLTN/build
+"weighted_partition_oracle" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"weighted_partition_oracle" end time: Oct 11 14:13 +07
+"weighted_partition_oracle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /usr/bin/python3
+9/21 Testing: continuation_oracle
+9/21 Test: continuation_oracle
+Command: "" "/home/thienquach_onemount/Documents/atsp/tests/test_continuation_oracle.py"
+Directory: /home/th1enq/Downloads/KLTN/build
+"continuation_oracle" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"continuation_oracle" end time: Oct 11 14:13 +07
+"continuation_oracle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /usr/bin/python3
+10/21 Testing: continuation_state
+10/21 Test: continuation_state
+Command: "" "/home/thienquach_onemount/Documents/atsp/tests/test_continuation_state.py"
+Directory: /home/th1enq/Downloads/KLTN/build
+"continuation_state" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"continuation_state" end time: Oct 11 14:13 +07
+"continuation_state" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /usr/bin/python3
+11/21 Testing: rational_ellipsoid
+11/21 Test: rational_ellipsoid
+Command: "" "/home/thienquach_onemount/Documents/atsp/tests/test_rational_ellipsoid.py"
+Directory: /home/th1enq/Downloads/KLTN/build
+"rational_ellipsoid" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"rational_ellipsoid" end time: Oct 11 14:13 +07
+"rational_ellipsoid" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /usr/bin/python3
+12/21 Testing: appendix_a_value_oracle
+12/21 Test: appendix_a_value_oracle
+Command: "" "/home/thienquach_onemount/Documents/atsp/tests/test_appendix_a_value_oracle.py"
+Directory: /home/th1enq/Downloads/KLTN/build
+"appendix_a_value_oracle" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"appendix_a_value_oracle" end time: Oct 11 14:13 +07
+"appendix_a_value_oracle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /usr/bin/python3
+13/21 Testing: appendix_a_potential
+13/21 Test: appendix_a_potential
+Command: "" "/home/thienquach_onemount/Documents/atsp/tests/test_appendix_a_potential.py"
+Directory: /home/th1enq/Downloads/KLTN/build
+"appendix_a_potential" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"appendix_a_potential" end time: Oct 11 14:13 +07
+"appendix_a_potential" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /usr/bin/python3
+14/21 Testing: continuation_solver
+14/21 Test: continuation_solver
+Command: "" "/home/thienquach_onemount/Documents/atsp/tests/test_continuation_solver.py"
+Directory: /home/th1enq/Downloads/KLTN/build
+"continuation_solver" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"continuation_solver" end time: Oct 11 14:13 +07
+"continuation_solver" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /usr/bin/python3
+15/21 Testing: rational_frame
+15/21 Test: rational_frame
+Command: "" "/home/thienquach_onemount/Documents/atsp/tests/test_rational_frame.py"
+Directory: /home/th1enq/Downloads/KLTN/build
+"rational_frame" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"rational_frame" end time: Oct 11 14:13 +07
+"rational_frame" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /usr/bin/python3
+16/21 Testing: verified_sparsification
+16/21 Test: verified_sparsification
+Command: "" "/home/thienquach_onemount/Documents/atsp/tests/test_verified_sparsification.py"
+Directory: /home/th1enq/Downloads/KLTN/build
+"verified_sparsification" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"verified_sparsification" end time: Oct 11 14:13 +07
+"verified_sparsification" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /usr/bin/python3
+17/21 Testing: signing_certificate
+17/21 Test: signing_certificate
+Command: "" "/home/thienquach_onemount/Documents/atsp/tests/test_signing_certificate.py"
+Directory: /home/th1enq/Downloads/KLTN/build
+"signing_certificate" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"signing_certificate" end time: Oct 11 14:13 +07
+"signing_certificate" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /usr/bin/python3
+18/21 Testing: signing_padding
+18/21 Test: signing_padding
+Command: "" "/home/thienquach_onemount/Documents/atsp/tests/test_signing_padding.py"
+Directory: /home/th1enq/Downloads/KLTN/build
+"signing_padding" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"signing_padding" end time: Oct 11 14:13 +07
+"signing_padding" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /usr/bin/python3
+19/21 Testing: deterministic_signing
+19/21 Test: deterministic_signing
+Command: "" "/home/thienquach_onemount/Documents/atsp/tests/test_deterministic_signing.py"
+Directory: /home/th1enq/Downloads/KLTN/build
+"deterministic_signing" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"deterministic_signing" end time: Oct 11 14:13 +07
+"deterministic_signing" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /usr/bin/python3
+20/21 Testing: exact_psd
+20/21 Test: exact_psd
+Command: "" "/home/thienquach_onemount/Documents/atsp/tests/test_exact_psd.py"
+Directory: /home/th1enq/Downloads/KLTN/build
+"exact_psd" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"exact_psd" end time: Oct 11 14:13 +07
+"exact_psd" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /usr/bin/python3
+21/21 Testing: threshold_arithmetic
+21/21 Test: threshold_arithmetic
+Command: "" "/home/thienquach_onemount/Documents/atsp/scripts/check_thresholds.py"
+Directory: /home/th1enq/Downloads/KLTN/build
+"threshold_arithmetic" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"threshold_arithmetic" end time: Oct 11 14:13 +07
+"threshold_arithmetic" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 11 14:13 +07

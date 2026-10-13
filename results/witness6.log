@@ -1,0 +1,9 @@
+witness6
+n=6 arcs=14
+hk_feasible=1 hk_ms=0.047523000 hk_min_cut=1.000000000
+hamiltonian=0 p_star=2
+support_edges=10 spanning_trees=128 beta_exact=1.333333333
+beta_invz_mst=1.500000000 beta_random=1.333333333 beta_local=1.333333333
+aks_feasible=1 k_bound=6 max_visits=2 power_bound=11 alg_bottleneck=2
+metric_tau_hk=1 metric_opt=2 lp_gap=2.000000000 alg_over_opt=1.000000000
+best_tree= (0,1) (0,4) (1,3) (2,4) (2,5)

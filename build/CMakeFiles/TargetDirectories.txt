@@ -1,0 +1,5 @@
+/home/thienquach_onemount/Documents/atsp/build/CMakeFiles/batsp.dir
+/home/thienquach_onemount/Documents/atsp/build/CMakeFiles/test_core.dir
+/home/thienquach_onemount/Documents/atsp/build/CMakeFiles/test.dir
+/home/thienquach_onemount/Documents/atsp/build/CMakeFiles/edit_cache.dir
+/home/thienquach_onemount/Documents/atsp/build/CMakeFiles/rebuild_cache.dir

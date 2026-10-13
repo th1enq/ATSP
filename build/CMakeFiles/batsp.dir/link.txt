@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/batsp.dir/link.d CMakeFiles/batsp.dir/src/main.cpp.o -o batsp

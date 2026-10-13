@@ -1,0 +1,22 @@
+{
+  "python": "3.13.12",
+  "scipy": "1.16.1",
+  "numpy": "2.3.2",
+  "lp_method": "highs-ds",
+  "per_case_timeout": 180,
+  "platform": "Linux-6.12.93-x86_64-with-glibc2.40",
+  "binary_sha256": "bda4f0168d2fc75b4649b87df0975d162e8995d28f45003a6e1dcb57dc5161b5",
+  "constructor_sha256": {
+    "scripts/experimental_tree.py": "bf6deea43895d007c4bcfa5d1b098b8d274c7584828ba35c96b9acb44ff824f4",
+    "scripts/verified_sparsification.py": "7bcdb1624f8104b598d1721cf70571faa6845961c42768715f72db8b215f2dce",
+    "scripts/rational_frame.py": "8b1678a92ee056875f0b5cd0f665e2d12999cc37586707d515357627ecec721d",
+    "scripts/tree_packing.py": "4686a218e38090bd23268eaf91bd3e6d9482087021d1028bb1a240201d8bf859"
+  },
+  "compiler": "g++ 14.3.0",
+  "compile_flags": "-std=c++20 -O2 -Wall -Wextra -Wpedantic -Iinclude",
+  "cpu": "Intel Core i9-9980HK @ 2.40GHz",
+  "ram_kib": 15993756,
+  "date": "2026-10-11",
+  "constructor_scope": "existing bounded checked Laplacian sparsification; no full Result 174 implementation claimed",
+  "algorithm_changed_for_campaign": false
+}

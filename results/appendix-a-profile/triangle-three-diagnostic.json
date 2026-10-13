@@ -1,0 +1,170 @@
+{
+  "separator": "sparse",
+  "iteration_cap": 0,
+  "wall_budget_seconds": 30,
+  "cprofile_enabled": false,
+  "python": "3.13.12",
+  "elapsed_seconds": 0.11885585900017759,
+  "graph": {
+    "n": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "r": 8
+  },
+  "terminal_witness": {
+    "x": [
+      [
+        "16",
+        "-8"
+      ],
+      [
+        "-8",
+        "16"
+      ]
+    ],
+    "s": "2",
+    "q": "8",
+    "cone_lambda": {}
+  },
+  "status": "incomplete",
+  "phase": "appendix-a-signing",
+  "error": "ellipsoid iteration budget reached; no volume conclusion",
+  "error_type": "IterationLimitReached",
+  "separator_metrics": {
+    "calls": 2,
+    "seconds": 0.00926632799928484,
+    "max_numerator_bits": 6,
+    "max_denominator_bits": 5,
+    "point_sequence_sha256": "b3f2be9cf2803b8e16fc5c7d9b0fb947d99f5dee28bc96e4ac23091740b7c6fe"
+  },
+  "potential_queries": [
+    {
+      "accuracy": "1/4",
+      "accuracy_denominator_bits": 3,
+      "variables": 14,
+      "matrix_dimension": 4,
+      "completed": false,
+      "seconds": 0.03611252299924672
+    }
+  ],
+  "sdp_queries": [
+    {
+      "accuracy": "1/8",
+      "variables": 21,
+      "completed": false,
+      "seconds": 0.023978961999091553
+    }
+  ],
+  "ellipsoid_solves": [
+    {
+      "dimension": 21,
+      "iterations": 1,
+      "completed": false,
+      "inner_radius": "1/80000000000",
+      "max_iterations": 0,
+      "error_type": "IterationLimitReached",
+      "seconds": 0.0011623950013017748
+    }
+  ],
+  "replay": {
+    "status": "incomplete",
+    "verified_responses": 0,
+    "phase": "appendix-a-signing"
+  }
+}

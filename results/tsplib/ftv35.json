@@ -1,0 +1,376 @@
+{
+  "name": "ftv35",
+  "n": 36,
+  "objective": "maximum original directed edge cost",
+  "matrix_transformation": "none; diagonal excluded",
+  "input_sha256": "fc6efd2d16498bf9b72dbfcea29e4b29abff4e211bdf36d05a4b87f1543b01ff",
+  "matrix_sha256": "01eda4a9569291969e61c7710449e391a68b9176506b2ec5e7fa4c4f694bb7a5",
+  "published_bottleneck_optimum": 113,
+  "published_optimum_source": "https://cedric.cnam.fr/~bentzc/INITREC/Files/CB1.pdf",
+  "exact_references_run": false,
+  "triangle_violations": 0,
+  "metric": true,
+  "hk": {
+    "feasible": true,
+    "threshold": 113,
+    "denominator": 6,
+    "arcs": [
+      [
+        0,
+        25,
+        5
+      ],
+      [
+        0,
+        35,
+        1
+      ],
+      [
+        1,
+        4,
+        4
+      ],
+      [
+        1,
+        5,
+        2
+      ],
+      [
+        2,
+        32,
+        6
+      ],
+      [
+        3,
+        11,
+        5
+      ],
+      [
+        3,
+        16,
+        1
+      ],
+      [
+        4,
+        2,
+        6
+      ],
+      [
+        5,
+        9,
+        4
+      ],
+      [
+        5,
+        13,
+        2
+      ],
+      [
+        6,
+        4,
+        2
+      ],
+      [
+        6,
+        7,
+        4
+      ],
+      [
+        7,
+        6,
+        2
+      ],
+      [
+        7,
+        34,
+        4
+      ],
+      [
+        8,
+        13,
+        4
+      ],
+      [
+        8,
+        34,
+        2
+      ],
+      [
+        9,
+        5,
+        2
+      ],
+      [
+        9,
+        26,
+        4
+      ],
+      [
+        10,
+        33,
+        6
+      ],
+      [
+        11,
+        3,
+        1
+      ],
+      [
+        11,
+        35,
+        5
+      ],
+      [
+        12,
+        5,
+        2
+      ],
+      [
+        12,
+        6,
+        4
+      ],
+      [
+        13,
+        14,
+        6
+      ],
+      [
+        14,
+        3,
+        1
+      ],
+      [
+        14,
+        16,
+        5
+      ],
+      [
+        15,
+        8,
+        6
+      ],
+      [
+        16,
+        25,
+        1
+      ],
+      [
+        16,
+        30,
+        5
+      ],
+      [
+        17,
+        12,
+        6
+      ],
+      [
+        18,
+        19,
+        6
+      ],
+      [
+        19,
+        17,
+        6
+      ],
+      [
+        20,
+        22,
+        6
+      ],
+      [
+        21,
+        23,
+        6
+      ],
+      [
+        22,
+        29,
+        6
+      ],
+      [
+        23,
+        28,
+        6
+      ],
+      [
+        24,
+        10,
+        6
+      ],
+      [
+        25,
+        18,
+        6
+      ],
+      [
+        26,
+        21,
+        6
+      ],
+      [
+        27,
+        24,
+        6
+      ],
+      [
+        28,
+        27,
+        6
+      ],
+      [
+        29,
+        1,
+        5
+      ],
+      [
+        29,
+        30,
+        1
+      ],
+      [
+        30,
+        0,
+        4
+      ],
+      [
+        30,
+        1,
+        1
+      ],
+      [
+        30,
+        11,
+        1
+      ],
+      [
+        31,
+        3,
+        4
+      ],
+      [
+        31,
+        26,
+        2
+      ],
+      [
+        32,
+        31,
+        6
+      ],
+      [
+        33,
+        20,
+        6
+      ],
+      [
+        34,
+        0,
+        2
+      ],
+      [
+        34,
+        7,
+        2
+      ],
+      [
+        34,
+        9,
+        2
+      ],
+      [
+        35,
+        15,
+        6
+      ]
+    ],
+    "iterations": 12,
+    "cut_count": 58,
+    "verification": "exact degrees and integral root-v min-cuts",
+    "predecessor": {
+      "feasible": false,
+      "threshold": 112,
+      "iterations": 1,
+      "cut_count": 0,
+      "proof": {
+        "multipliers": [
+          {
+            "kind": "out",
+            "vertex": 10,
+            "sign": -1,
+            "weight": "1"
+          }
+        ],
+        "weighted_rhs": "-1",
+        "verification": "exact rational Farkas certificate"
+      }
+    },
+    "queries": [
+      {
+        "threshold": 144,
+        "feasible": true,
+        "iterations": 1,
+        "cuts": 0,
+        "seconds": 0.018808352000633022
+      },
+      {
+        "threshold": 80,
+        "feasible": false,
+        "iterations": 1,
+        "cuts": 0,
+        "seconds": 0.010049878000245371
+      },
+      {
+        "threshold": 112,
+        "feasible": false,
+        "iterations": 1,
+        "cuts": 0,
+        "seconds": 0.01476515800004563
+      },
+      {
+        "threshold": 128,
+        "feasible": true,
+        "iterations": 14,
+        "cuts": 62,
+        "seconds": 0.2881652590003796
+      },
+      {
+        "threshold": 120,
+        "feasible": true,
+        "iterations": 21,
+        "cuts": 120,
+        "seconds": 0.5460944099995686
+      },
+      {
+        "threshold": 116,
+        "feasible": true,
+        "iterations": 14,
+        "cuts": 61,
+        "seconds": 0.2869769549997727
+      },
+      {
+        "threshold": 114,
+        "feasible": true,
+        "iterations": 88,
+        "cuts": 557,
+        "seconds": 5.836852679000003
+      },
+      {
+        "threshold": 113,
+        "feasible": true,
+        "iterations": 12,
+        "cuts": 58,
+        "seconds": 0.23215036000055989
+      }
+    ],
+    "lower_bound_certified": true,
+    "subset_enumeration": false
+  },
+  "hk_seconds": 7.234059440999772,
+  "status": "timeout",
+  "stage": "tree_construction",
+  "error": "TimeoutError: per-instance wall clock limit exceeded",
+  "seconds": 180.00647168399973
+}

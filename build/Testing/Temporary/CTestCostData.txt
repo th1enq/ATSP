@@ -1,0 +1,43 @@
+core 20 0
+certified_witness 21 0
+exact_compression 16 0
+binary_compression 15 0
+tree_packing 14 0
+packing_cli 13 0
+weighted_partition_oracle 12 0
+exact_psd 12 0
+threshold_arithmetic 11 0
+continuation_oracle 10 0
+continuation_state 9 0
+polynomial_baseline_witness 7 0
+rational_ellipsoid 5 0
+continuation_solver 5 0
+rational_frame 5 0
+verified_sparsification 5 0
+signing_certificate 5 0
+signing_padding 4 0
+deterministic_signing 3 0
+appendix_a_value_oracle 2 0
+appendix_a_potential 2 0
+---
+core
+certified_witness
+polynomial_baseline_witness
+exact_compression
+binary_compression
+tree_packing
+packing_cli
+weighted_partition_oracle
+continuation_oracle
+continuation_state
+rational_ellipsoid
+appendix_a_value_oracle
+appendix_a_potential
+continuation_solver
+rational_frame
+verified_sparsification
+signing_certificate
+signing_padding
+deterministic_signing
+exact_psd
+threshold_arithmetic

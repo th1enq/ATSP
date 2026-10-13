@@ -1,0 +1,67 @@
+{
+  "schema": "general-sparsification-v1",
+  "graph": {
+    "n": 2,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "r": 8
+  },
+  "origin": "supplied-terminal-witness",
+  "start": {
+    "x": [
+      [
+        "8"
+      ]
+    ],
+    "s": "2",
+    "q": "8",
+    "cone_lambda": {}
+  },
+  "responses": [],
+  "status": "incomplete",
+  "phase": "appendix-a-signing",
+  "error_type": "RuntimeError",
+  "error": "construction wall time budget reached; no infeasibility claim",
+  "terminal": {
+    "x": [
+      [
+        "8"
+      ]
+    ],
+    "s": "2",
+    "q": "8",
+    "cone_lambda": {}
+  }
+}
