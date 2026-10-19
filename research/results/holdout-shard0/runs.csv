@@ -1,0 +1,9 @@
+instance,solver,status,objective,seconds
+holdout_06,uzl,timeout,,10.01271115399868
+holdout_00,uzl,ok,6,6.9123386350038345
+holdout_00,dense,ok,6,0.10895886700018309
+holdout_04,dense,ok,7,7.550780261997716
+holdout_02,uzl,ok,3,5.59149697200337
+holdout_04,uzl,timeout,,10.01286891700147
+holdout_02,dense,ok,3,0.009980520997487474
+holdout_06,dense,ok,4,0.021183390999794938

@@ -1,0 +1,7 @@
+this path will be fetched (1.91 MiB download, 7.10 MiB unpacked):
+  /nix/store/6a27mnj2a2kxd0b9hvva0nnfk1xdz2mz-highs-1.12.0
+copying path '/nix/store/6a27mnj2a2kxd0b9hvva0nnfk1xdz2mz-highs-1.12.0' from 'https://cache.nixos.org'...
+Package highs was not found in the pkg-config search path.
+Perhaps you should add the directory containing `highs.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'highs' found

@@ -1,0 +1,4 @@
+{"instance": "private_exact_001", "repeat": 0, "seconds": 120.1079847439978, "status": "timeout", "objective": null, "returncode": null}
+{"instance": "private_exact_048", "repeat": 0, "seconds": 120.10602862400265, "status": "timeout", "objective": null, "returncode": null}
+{"instance": "private_exact_047", "repeat": 0, "seconds": 98.56789949000085, "status": "ok", "objective": 4, "returncode": 0}
+{"instance": "private_exact_045", "repeat": 0, "seconds": 120.0246213499995, "status": "timeout", "objective": null, "returncode": null}

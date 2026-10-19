@@ -1,0 +1,55 @@
+{
+  "utc_start": "2026-10-19T01:07:35.415979+00:00",
+  "cpu": 5,
+  "seconds": 10.0,
+  "repeat": 1,
+  "job_order_seed": 981733,
+  "commands": {
+    "portfolio": [
+      "/run/current-system/sw/bin/python3",
+      "/home/th1enq/Documents/KLTN/research/scripts/solve.py"
+    ],
+    "uzl": [
+      "/home/th1enq/Documents/KLTN/research/vendor/uzl/target/release/uzl_hs"
+    ]
+  },
+  "binary_sha256": {
+    "portfolio": "70c02343578edf8522b2b0018f723d9d3068f4c6386b8036a3eeee3fd1ddb2b5",
+    "uzl": "f912deb0b16e81bc409a0518c38bc12f0f06ae623ab58afe6ac3597e5223c882"
+  },
+  "input_sha256": {
+    "private_exact_003.hgr": "608c48d2c68583a6a8ab7f579dafd7f5156fc69029c70444a90291e6c1a194f5",
+    "private_exact_006.hgr": "e851d3e088a8f313375e2ff8b0eb2c3ca058a22d71e6eea9fbcac0b97e54c299",
+    "private_exact_009.hgr": "d79e3c207cd23a0830302c7f4bc7b2b8283733f7218ac3218220fbb64ac3435b",
+    "private_exact_012.hgr": "c03c204666fb68dc0505238c2ff0413b2908d2264a3a6c133ee2bfec1077b290",
+    "private_exact_015.hgr": "8cb60bf52ffd0f3bf5ded1c775a295c73e3116bcfba9656fe58ff743fb4d63a7",
+    "private_exact_018.hgr": "9e041401c3c8d7e2621c5a8a3f0ce32cb30e4b8f0f37f3ff144d372f9f67fefc",
+    "private_exact_021.hgr": "da00f65ffbb61d826eac6316f139b425e88aa54e9c429ee4fda15a2c4824d6df",
+    "private_exact_024.hgr": "84319ed76d5c936c1896ffbe5fdbbaf47915026160a08691cd72b12455983b4c",
+    "private_exact_027.hgr": "d3498bb3c68cd07dcc112d3ec013abd3d49be0fc233635044ddb27cefb1666ce",
+    "private_exact_030.hgr": "e3bb881b5b1b6ad55aeb36760f237f260e51c5d255420d8c3a63d00c7745000d",
+    "private_exact_033.hgr": "0767d1d4d23043932c36c713178b8885be736cccf87fe62dadf21215a8c2fc02",
+    "private_exact_036.hgr": "c0798a5b03ba9d8cbba32e9d0037a6256d02ce92fdfcb688bd18a6769d9377bc",
+    "private_exact_039.hgr": "6727593e36adfcd4e6a7cb5caee58b1c64915a856038f9fd24459f82d7a465a8",
+    "private_exact_042.hgr": "2f7611015b1daa79921d10ad6c5a00e3340bee53b4a658f18bf0a7160bc4f5ab",
+    "private_exact_045.hgr": "d9eca01e41065e47f364e4628260b9cb98a390e6a8749025dbbb7412ad44ac62",
+    "private_exact_048.hgr": "d4e297fcf76e1705961b16f80fae4ee6a7c3f04be2c62b0d735a19490a83b0e9",
+    "private_exact_051.hgr": "1ab606462aca0843ab02f863a3b3fafa1dfab629deaa74353a9871904d53e6a5",
+    "private_exact_054.hgr": "d8018788dac437590b8792d6d439c05e731146f9347b3a7a8a347856e24b104b",
+    "private_exact_057.hgr": "c6f27549c46ef637c7f0a83ecb0d3dbd89427938343f8c6d3e3927b1300aed54",
+    "private_exact_060.hgr": "451281a53bd7dc7b1b1b72b6dc48c1291d48e8a97809fd8906e5abc8826ac514",
+    "private_exact_063.hgr": "7f5a9d934500df09c8b009d2943c418ddfe6997e52990b23c440a5a81a4acf96",
+    "private_exact_066.hgr": "a76c8028ce9e3b717cd0c731246b21d6aa89fa3299dc92cd5ae57920d726caa8",
+    "private_exact_069.hgr": "f4c73951545ed4c8e2d610b119c9f40051cba5b7d0dabaa952e32be46a343cd7",
+    "private_exact_072.hgr": "4b914babe8bf4ab498c20966abe4b862ddda206692fc42996c3d7e25e1752317",
+    "private_exact_075.hgr": "3d4788df2f4db2dba6680c89449a03e8d3dba9a17ff3d8f71fc0906f58cb82f7",
+    "private_exact_078.hgr": "e9e7634d6aa2073a75b78f5865d34454fb30f525b7c0fc37481d598b88c66086",
+    "private_exact_081.hgr": "c007e8ac90557cb7f58ec457f18516a40a67df88917971b7c4160a3b2e4f6305",
+    "private_exact_084.hgr": "19a3bb179f4ae7eac6dce98e56fcfa7b1c8f6e34ac75ead4f2508fb656cb446a",
+    "private_exact_087.hgr": "469ce450c4200ea328daf51ba6fe615b1dd579e72cfc866c3ba7d2eeb1ff0c27",
+    "private_exact_090.hgr": "afd655552280e0cf9fbd23823103328b7e7b8d90838ddc505a6afb3bed5b2a7e",
+    "private_exact_093.hgr": "4b269a271e58255b8ff96c85ec4e9d348f134f8d10cf4c9e11d4e2ce21ed3b2d",
+    "private_exact_096.hgr": "31f19c40131ad0e50f2af2b296dd6dfecd02a5fcac7931c0922b167c063a19eb",
+    "private_exact_099.hgr": "b14ed54774444718df52ff332c026fabe8882d3b1ee5d5ea2863676c22493170"
+  }
+}

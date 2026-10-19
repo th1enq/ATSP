@@ -1,0 +1,6 @@
+greedy 9
+unsat 1 seconds 0.000100486 nodes 1 paircalls 0
+unsat 2 seconds 2.2422e-05 nodes 2 paircalls 1
+unsat 3 seconds 5.2896e-05 nodes 3 paircalls 1
+unsat 4 seconds 3.5071e-05 nodes 4 paircalls 1
+unsat 5 seconds 0.00357532 nodes 87 paircalls 1

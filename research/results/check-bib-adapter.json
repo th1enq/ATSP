@@ -1,0 +1,7 @@
+{
+  "adapter": "BIBCO/BIBLP EMDSP incidence graph",
+  "seed": 7,
+  "cases": 60,
+  "verified_runs": 120,
+  "result": "passed"
+}

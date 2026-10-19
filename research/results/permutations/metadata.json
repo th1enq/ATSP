@@ -1,0 +1,6 @@
+{
+  "seed": 746193,
+  "cpu": 6,
+  "timeout_s": 10,
+  "test": "independent permutations of vertices and edge orders"
+}

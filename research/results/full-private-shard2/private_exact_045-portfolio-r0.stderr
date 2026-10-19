@@ -1,0 +1,6 @@
+portfolio: dense exact solve
+greedy 5
+unsat 1 seconds 7.7698e-05 nodes 1 paircalls 0
+unsat 2 seconds 9.0852e-05 nodes 2 paircalls 1
+unsat 3 seconds 0.0031709 nodes 156 paircalls 154
+unsat 4 seconds 0.35284 nodes 17666 paircalls 17510

@@ -1,0 +1,3 @@
+[2026-10-19T00:53:51.073Z INFO  findminhs::instance] Loaded json instance with 5614 nodes, 5614 edges in 3.07ms
+[2026-10-19T00:53:51.073Z INFO  findminhs] Solving "/home/th1enq/Documents/KLTN/research/results/findminhs-pilot/exact_060-r0.json"
+[2026-10-19T00:53:51.079Z INFO  findminhs::reductions] Found HS of size 1899 using greedy (partial 0 + greedy 1899)

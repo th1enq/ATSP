@@ -1,0 +1,6 @@
+[2026-10-19T00:53:49.050Z INFO  findminhs::instance] Loaded json instance with 200 nodes, 933 edges in 349.44µs
+[2026-10-19T00:53:49.050Z INFO  findminhs] Solving "/home/th1enq/Documents/KLTN/research/results/findminhs-pilot/exact_007-r0.json"
+[2026-10-19T00:53:49.051Z INFO  findminhs::reductions] Found HS of size 141 using greedy (partial 0 + greedy 141)
+[2026-10-19T00:53:49.120Z INFO  findminhs::reductions] Found HS of size 140 using greedy (partial 34 + greedy 106)
+[2026-10-19T00:53:49.173Z INFO  findminhs::reductions] Found HS of size 138 using greedy (partial 104 + greedy 34)
+[2026-10-19T00:53:49.316Z INFO  findminhs::solve] Found HS of size 137 by branching

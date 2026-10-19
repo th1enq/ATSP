@@ -1,0 +1,131 @@
+{
+  "full_private": {
+    "portfolio": {
+      "solved": 43,
+      "runs": 100,
+      "timeouts": 57
+    },
+    "uzl": {
+      "solved": 27,
+      "runs": 100,
+      "timeouts": 73
+    }
+  },
+  "small_dense_private": {
+    "bibco_native": {
+      "solved": 0,
+      "runs": 30,
+      "timeouts": 30
+    },
+    "biblp_native": {
+      "solved": 0,
+      "runs": 30,
+      "timeouts": 30
+    },
+    "dense": {
+      "solved": 17,
+      "runs": 30,
+      "timeouts": 13
+    },
+    "no_pair": {
+      "solved": 10,
+      "runs": 30,
+      "timeouts": 20
+    },
+    "uzl": {
+      "solved": 0,
+      "runs": 30,
+      "timeouts": 30
+    }
+  },
+  "paired_wins": [
+    "private_exact_001",
+    "private_exact_022",
+    "private_exact_029",
+    "private_exact_036",
+    "private_exact_041",
+    "private_exact_043",
+    "private_exact_045",
+    "private_exact_047",
+    "private_exact_048",
+    "private_exact_055",
+    "private_exact_060",
+    "private_exact_075",
+    "private_exact_081",
+    "private_exact_095",
+    "private_exact_096",
+    "private_exact_100"
+  ],
+  "paired_losses": [],
+  "rechecked_primary_certificates": 87,
+  "permutation_status": {
+    "ok": 24
+  },
+  "native_repeats": {
+    "dense": {
+      "solved": 24,
+      "runs": 24,
+      "timeouts": 0
+    }
+  },
+  "portable_repeats": {
+    "portable": {
+      "solved": 24,
+      "runs": 24,
+      "timeouts": 0
+    }
+  },
+  "median_047_native_s": 0.03821715399681125,
+  "median_047_portable_s": 0.04016026000317652,
+  "fresh_ws_holdout": {
+    "dense": {
+      "solved": 6,
+      "runs": 8,
+      "timeouts": 2
+    },
+    "uzl": {
+      "solved": 2,
+      "runs": 8,
+      "timeouts": 6
+    }
+  },
+  "tests": {
+    "check-exact-v3.json": {
+      "cases": 300,
+      "solver_configurations": 5,
+      "verified_runs": 1500,
+      "seed": 20261019,
+      "result": "passed"
+    },
+    "check-regressions.json": {
+      "seed": 1019,
+      "boundary_cases": 156,
+      "fallback_cases": 5,
+      "verified_runs": 317,
+      "result": "passed"
+    },
+    "check-bib-adapter.json": {
+      "adapter": "BIBCO/BIBLP EMDSP incidence graph",
+      "seed": 7,
+      "cases": 60,
+      "verified_runs": 120,
+      "result": "passed"
+    },
+    "certify-047.json": {
+      "certified_optimal": true,
+      "objective": 4,
+      "enumerated_subsets": 6843880,
+      "seconds": 0.116443
+    },
+    "certify-001.json": {
+      "certified_optimal": true,
+      "objective": 5,
+      "enumerated_subsets": 1137691170,
+      "seconds": 18.6123
+    }
+  },
+  "invalidated_runs": [
+    "bibco-native-dense",
+    "biblp-native-dense"
+  ]
+}

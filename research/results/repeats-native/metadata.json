@@ -1,0 +1,25 @@
+{
+  "utc_start": "2026-10-19T01:14:13.994316+00:00",
+  "cpu": 7,
+  "seconds": 10.0,
+  "repeat": 3,
+  "job_order_seed": 981733,
+  "commands": {
+    "dense": [
+      "/home/th1enq/Documents/KLTN/research/bin/dense_v1"
+    ]
+  },
+  "binary_sha256": {
+    "dense": "45e3897fcfa3c9b0678c53ea9833660d433a6393af834db9c8b45cc68d91e090"
+  },
+  "input_sha256": {
+    "private_exact_001.hgr": "4b2b19c628b2dc325ffb23f0ae195d4b55b35c55fd11a228ff2e85e5dfdabef9",
+    "private_exact_036.hgr": "c0798a5b03ba9d8cbba32e9d0037a6256d02ce92fdfcb688bd18a6769d9377bc",
+    "private_exact_041.hgr": "2e462e854691b4b0b35cda7489e80da4cb843f75eab899032b5e6a8a74d614dc",
+    "private_exact_043.hgr": "45f1d42c9e06e2d5e8b5dc9615dad675ac25db72fab468fc188e36bcb2797b25",
+    "private_exact_045.hgr": "d9eca01e41065e47f364e4628260b9cb98a390e6a8749025dbbb7412ad44ac62",
+    "private_exact_047.hgr": "9f3c0135513ffa3b1b29e839ab9e5169f7370c3c219152f2f1a8640d8bb545a0",
+    "private_exact_048.hgr": "d4e297fcf76e1705961b16f80fae4ee6a7c3f04be2c62b0d735a19490a83b0e9",
+    "private_exact_096.hgr": "31f19c40131ad0e50f2af2b296dd6dfecd02a5fcac7931c0922b167c063a19eb"
+  }
+}

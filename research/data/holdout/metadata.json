@@ -1,0 +1,70 @@
+{
+  "networkx": "3.7",
+  "frozen_binary_sha256": "45e3897fcfa3c9b0678c53ea9833660d433a6393af834db9c8b45cc68d91e090",
+  "instances": [
+    {
+      "instance": "holdout_00",
+      "n": 200,
+      "k": 40,
+      "p": 0.1,
+      "seed": 2026101901,
+      "sha256": "3f82f7c09bda03b041795557afa22529aeafd53ee669ae345b84bd4e375f2a64"
+    },
+    {
+      "instance": "holdout_01",
+      "n": 200,
+      "k": 40,
+      "p": 0.5,
+      "seed": 2026101902,
+      "sha256": "2549446f35be8007dfe4c7c44be48511edb88511787010cd13bd3af8eca65f90"
+    },
+    {
+      "instance": "holdout_02",
+      "n": 200,
+      "k": 100,
+      "p": 0.1,
+      "seed": 2026101903,
+      "sha256": "3c01939b17908ae0b10c1613b02ab7fbd5102f8fc2cf8a0c8ab48e79f6d9ac3d"
+    },
+    {
+      "instance": "holdout_03",
+      "n": 200,
+      "k": 100,
+      "p": 0.5,
+      "seed": 2026101904,
+      "sha256": "74270b762329ed0025b530c5aa28c7cfda585d8740ae1fa1f629427210aa0bc3"
+    },
+    {
+      "instance": "holdout_04",
+      "n": 300,
+      "k": 60,
+      "p": 0.1,
+      "seed": 2026101905,
+      "sha256": "1e431814a6fe128a2077feb68c767babb14f74ec44f016434cb60ebe03db8c8c"
+    },
+    {
+      "instance": "holdout_05",
+      "n": 300,
+      "k": 60,
+      "p": 0.5,
+      "seed": 2026101906,
+      "sha256": "f2a43a165685d054a21d61a9c41b2bd95889b595a458c5b77c9382e2a1d8a96c"
+    },
+    {
+      "instance": "holdout_06",
+      "n": 300,
+      "k": 150,
+      "p": 0.1,
+      "seed": 2026101907,
+      "sha256": "7491b589af6bfba4cef03f9a4680513e5431a36d22e84eae3750eafcf5afd288"
+    },
+    {
+      "instance": "holdout_07",
+      "n": 300,
+      "k": 150,
+      "p": 0.5,
+      "seed": 2026101908,
+      "sha256": "71524100dfc20d2ab1d681a47178984960ab68a927a0a40537d8db14207483cc"
+    }
+  ]
+}

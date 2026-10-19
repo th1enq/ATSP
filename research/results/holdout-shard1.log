@@ -1,0 +1,8 @@
+{"instance": "holdout_07", "solver": "dense", "status": "ok", "objective": 4, "seconds": 0.019940765996580012}
+{"instance": "holdout_07", "solver": "uzl", "status": "timeout", "objective": null, "seconds": 10.015244640002493}
+{"instance": "holdout_01", "solver": "uzl", "status": "timeout", "objective": null, "seconds": 10.012660936998145}
+{"instance": "holdout_03", "solver": "uzl", "status": "timeout", "objective": null, "seconds": 10.011800196996774}
+{"instance": "holdout_01", "solver": "dense", "status": "timeout", "objective": null, "seconds": 10.0112411959999}
+{"instance": "holdout_05", "solver": "dense", "status": "timeout", "objective": null, "seconds": 10.010957846003294}
+{"instance": "holdout_03", "solver": "dense", "status": "ok", "objective": 4, "seconds": 0.009468826996453572}
+{"instance": "holdout_05", "solver": "uzl", "status": "timeout", "objective": null, "seconds": 10.012023249000777}
